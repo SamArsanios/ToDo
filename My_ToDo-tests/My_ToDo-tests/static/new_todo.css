@@ -1,0 +1,27 @@
+.todo_panel {
+}
+.new_todo {
+    width: 100%;
+    float: left;
+}
+.todo_form {
+    border: 1px var(--primary) solid;
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px 0;
+    background: url(../static/new_todo_bg.JPG) no-repeat center;    
+}
+.todo_form a {
+    color: white;
+}
+.todo_form a:hover {
+    color: var(--primary);
+}
+.card {
+
+}
+.todo_form p {
+    margin: 0 0 20px 0;
+    background: none;
+    text-shadow: var(--text_shadow);
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My ToDo | Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/main.css" />
+</head>
+<body>
+    <!-- main wrapper starts -->
+    <div class="main_wrapper" align="center">
+        <!-- main nav starts -->
+        <nav class="main_nav">
+            <ul>
+                <li><a href="settings.html">Settings</a></li>
+                <li><a href="login.html">logout</a></li>
+            </ul>
+        </nav>
+        <!-- main nav ends -->
+        <!-- content wrapper starts -->
+        <div class="content_wrapper" align="left">
+            <div class="logo logo_sm">
+                <img src="../static/logo.jpg">
+            </div>
+            
+            <div class="dashboard_wrapper">
+                <ul>
+                    <li class="active"><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="create_todo.html">New ToDo</a></li>
+                    <li><a href="all_todoes.html">All ToDoes</a></li>
+                </ul>
+                <div class="info_box">
+                    <div class="info_card">
+                        <strong>Hi, Zack !</strong>
+                        <p class="blue"><span>Number ToDoes:</span> 20</p>
+                        <p class="blue"><span>Number Items:</span> 120</p>
+                        <p class="green"><span>Done:</span> 100</p>
+                        <p class="red"><span>Pending:</span> 20</p>
+                    </div>
+                    <img src="../static/avatar.jpg">
+                </div>
+                <div class="todo_panel bg_white">
+                    <p>Recently created:</p>
+                    <div class="todoes">
+                        <div class="todo_list recent">
+                            <span class="todo_title">Work chores</span>
+                            <ul>
+                                <li>ToDo item 1</li>
+                                <li>ToDo item 2</li>
+                                <li>ToDo item 3</li>
+                                <li>ToDo item 4</li>
+                            </ul>
+                        </div>
+                        <div class="todo_list">
+                            <span class="todo_title">November plans</span>
+                            <ul>
+                                <li>ToDo item 1</li>
+                                <li>ToDo item 2</li>
+                                <li>ToDo item 3</li>
+                                <li>ToDo item 4</li>
+                            </ul>
+                        </div>
+                        <div class="todo_list">
+                            <span class="todo_title">September plans</span>
+                            <ul>
+                                <li>ToDo item 1</li>
+                                <li>ToDo item 2</li>
+                                <li>ToDo item 3</li>
+                                <li>ToDo item 4</li>
+                            </ul>
+                        </div>
+                        <div class="todo_list">
+                            <span class="todo_title">Home chores</span>
+                            <ul>
+                                <li>ToDo item 1</li>
+                                <li>ToDo item 2</li>
+                                <li>ToDo item 3</li>
+                                <li>ToDo item 4</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content wrapper ends -->
+        <!-- footer starts here -->
+        <footer>
+            <p>My To-Do &copy; 2018</p>
+        </footer>
+        <!-- footer ends -->
+    </div>
+    <!-- main wrapper ends -->
+</body>
+</html>

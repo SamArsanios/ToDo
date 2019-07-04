@@ -1,0 +1,275 @@
+:root {
+    --primary: #ff7b00;
+    --dark: #444;
+    --dark_gray: #999;
+    --gray: #ccc;
+    --light: #eee;
+    --box_shadow: 0 1px 4px #333;
+    --text_shadow: 0 1px 2px #333;
+}
+.bg_white {
+    background: white;
+}
+.blue {
+    color: #3366cc;
+}
+.green {
+    color: #00bb00;
+}
+.red {
+    color: #e80303;
+}
+html {
+    box-sizing: border-box;
+    font-family: calibri;
+    color: var(--dark);
+}
+body {
+    background: var(--light);
+    margin: 0;
+}
+.content_wrapper {
+    max-width: 1200px;
+    padding: 20px 30px;
+}
+.dashboard_wrapper {
+    list-style: none;
+    background: white;
+    height: 200px;
+    width: 100%;
+}
+.dashboard_wrapper a {
+    text-decoration: none;
+    color: var(--primary);
+    margin-left: 10px;
+    border: 1px var(--primary) solid;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.dashboard_wrapper a:hover {  
+    border: 1px var(--gray) solid;
+    color: var(--gray);
+}
+.dashboard_wrapper ul {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px var(--gray) dotted;
+    padding: 15px 0;
+}
+.dashboard_wrapper ul li {
+    display: inline;
+    margin: 20px 0;
+}
+.info_box {
+    width: 100%;
+}
+.info_card {
+    width: 49%;
+    padding: 1%;
+}
+.info_card strong {
+    font-size: 20px;
+}
+.info_card span {
+    color: gray;
+    font-size: 18px;
+}
+.info_card p {
+    margin: 0;
+}
+.info_card p span {
+    font-size: 18px;
+}
+.info_box img {
+    width: 100px;
+    float: right;
+    margin-top: -120px;
+}
+.active a {
+    background: var(--primary);
+    color: white;
+}
+.boxes a, form a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--light);
+    text-shadow: var(--text_shadow);
+}
+.btn {
+    background: var(--primary);
+    box-shadow: var(--box_shadow);
+    border-radius: 5px;
+}
+.btn:hover {
+    background: var(--gray);
+}
+img {
+    width: 100%;
+}
+.welcome_box p {
+    font-size: 20px;
+    color: var(--dark_gray);
+}
+span {
+    color: var(--primary);
+}
+.main_nav ul {
+    margin: 0;
+    background: var(--primary);
+    text-align: right;
+    box-shadow: var(--box_shadow);
+    padding: 10px 30px;
+}
+.main_nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+.main_nav ul a {
+    text-decoration: none;
+    color: var(--light);
+    text-shadow: var(--text_shadow);
+}
+.main_nav ul a:hover {
+    color: var(--gray);
+}
+.logo {
+    width: 90px;    
+    padding: 15px 20px;
+    border: 2px var(--primary) solid;
+    background: white;
+    border-radius: 30px;
+    margin: 20px 0;
+}
+.logo_sm {    
+    padding: 0;
+    border: none;
+    background: none;
+    border-radius: 30;
+
+}
+.logo img {
+    width: 100%;
+}
+.logo h3 {
+    margin: 0;
+    color: var(--primary);
+    width: 100%;
+}
+form {
+    max-width: 400px;
+    padding: 10px;
+    text-align: left;
+    background: url(../static/form_bg.jpg) no-repeat center;
+    border: 1px var(--primary) solid;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+form h3 {
+    font-size: 20px;
+    color: var(--primary);
+    text-shadow: var(--text_shadow);
+    padding-bottom: 2px;
+    border-bottom: 1px var(--primary) solid;
+}
+form input, form a {
+    font-size: 16px;
+    text-shadow: 0 1px 2px #fff;
+    margin-bottom: 15px;
+    height: 44px;
+    padding-left: 2%;   
+    margin-left: 3%;
+}
+form a {
+    text-shadow: none;
+}
+form a:hover {
+    color: var(--primary);
+    text-shadow: none;
+}
+form input[type=text] {
+    width: 90%;
+    background: #ffffffa4;
+    border: 1px white solid;
+    border-radius: 5px;
+    outline: none;
+}
+form input:hover, form textarea:hover {
+    border: 1px var(--primary) solid;
+}
+form input:focus, form textarea:focus {
+    border: 1px var(--primary) solid;
+}
+form textarea {
+    width: 88%;
+    margin-left: 3%;
+    padding: 2%;
+    min-height: 50px;
+    margin-bottom: 15px;
+    background: #ffffffa4;
+    border: 1px white solid;
+    font-size: 15px;
+    font-family: calibri;
+    text-shadow: 0 1px 2px #fff;
+    border-radius: 5px;
+    outline: none;
+}
+.todo_card {
+    max-width: 500px;
+    padding: 10px;
+    text-align: left;
+    background: white;
+    box-shadow: var(--box_shadow);
+    padding-bottom: 20px;
+}
+.todo_card h3 {
+    color: var(--primary);
+
+}
+.todo_panel {
+    max-width: 1200px;
+}
+.todo_panel p {
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    padding: 2px 5px;
+    background: var(--primary)
+}
+.todo_list {
+    background: white;
+    float: left;
+    width: 19%;
+    padding: 1% 2%;
+    box-shadow: var(--box_shadow);
+    margin: 1%;
+}
+.todo_list:hover {    
+    box-shadow: 0 1px 4px var(--primary);
+}
+.recent {
+    box-shadow: 0 1px 4px #00bb007c;
+}
+.todo_list p {
+    margin: 0;
+}
+.todo_list ul {
+    margin: 0;
+    border-bottom: none;
+}
+.todo_list ul li {
+    margin: 0;
+    display: block;
+}
+
+.header span {
+    font-size: 20px;
+    color: var(--gray);
+    margin-left: 10px;
+}
+
+footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
